@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* header section */
+
+body {
+    background-color: #1A0B2E;
+}
+
+
+
+/* nav section */
+
+.nav-container {
+    background-image: url(images/hero-bg.png);
+    background-position-x: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+nav h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    display: flex;
+
+    gap: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 120%;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    padding: 12px 16px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 10000px;
+    border: none;
+    background: linear-gradient(30deg, #F7E93F, #FB09B4, #9100F8);
+}
+
+.hamburger {
+    display: none;
+}
+
+
+/* podcast design */
+
+.podcast-img {
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.mic-img {
+    position: absolute;
+    top: 25%;
+    right: 47%;
+}
+
+.new-img {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1A0B2E;
+    padding: 8px 16px;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    border: none;
+    box-shadow: 0 3px 27px 0 #00FF88;
+    position: absolute;
+    top: 10px;
+    right: 800px;
+}
