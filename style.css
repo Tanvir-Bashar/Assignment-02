@@ -153,3 +153,55 @@ li>a {
     align-items: center;
     margin-left: 8px;
 }
+
+/* about-description */
+
+.about-description {
+    text-align: center;
+    margin-top: 209px;
+}
+
+.about-description h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.about-p {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.about-description p {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+/* user-section */
+
+.user-number {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 160px;
+    text-align: center;
+
+}
+
+.user-content h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00FF88;
+    padding-bottom: 16px;
+}
+
+.user-content p {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    line-height: 20px;
+}
