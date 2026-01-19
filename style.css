@@ -22,6 +22,9 @@
     color: transparent;
 }
 
+.hidden {
+    display: none;
+}
 
 
 /* header section */
@@ -396,13 +399,15 @@ footer h2 {
 .footer-icon {
     display: flex;
     justify-content: center;
-    gap: 40px;
+
 
 }
 
 .icon-content {
-    display: flex;
-    gap: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 55px);
+    text-align: center;
     justify-content: center;
 }
 
@@ -420,4 +425,102 @@ footer h2 {
     line-height: 24px;
     color: #FAFAFA;
     padding-bottom: 120px;
+}
+
+/* responsive section */
+
+@media screen and (max-width:576px) {
+
+    ul,
+    .btn-primary {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline;
+    }
+
+    .mic-img {
+        position: absolute;
+        top: 25%;
+        right: 40%;
+    }
+
+    .new-img {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #1A0B2E;
+        padding: 8px 16px;
+        background-color: #00FF88;
+        border-radius: 1000px;
+        border: none;
+        box-shadow: 0 3px 27px 0 #00FF88;
+        position: absolute;
+        top: 10px;
+        right: 120px;
+    }
+
+    .about-description {
+        margin-top: 150px;
+    }
+
+    .user-number {
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+        padding-top: 40px;
+
+        padding-bottom: 60px;
+    }
+
+    .why-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 30px;
+        padding-bottom: 120px;
+    }
+
+
+    .featured-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .video-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .host-content {
+
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 60px;
+
+    }
+
+    .host-icon {
+        justify-content: center;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        text-align: start;
+        margin-top: 20px;
+    }
+
+    .icon-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
 }
