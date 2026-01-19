@@ -109,3 +109,47 @@ li>a {
     top: 10px;
     right: 800px;
 }
+
+/* techwave-description */
+
+.techwave-description {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.techwave-description h2 {
+    font-size: 3.75rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+
+.techwave-description p {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.spotify-btn {
+    padding: 12px 20px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 10000px;
+    border: none;
+    align-items: center;
+    background: linear-gradient(30deg, #F7E93F, #FB09B4, #9100F8);
+}
+
+.mail-btn {
+    padding: 12px 20px;
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 10000px;
+    background-color: transparent;
+    border: 1px solid #00FF88;
+    align-items: center;
+    margin-left: 8px;
+}
