@@ -159,6 +159,7 @@ li>a {
 .about-description {
     text-align: center;
     margin-top: 209px;
+
 }
 
 .about-description h2 {
@@ -189,6 +190,7 @@ li>a {
     grid-template-columns: repeat(4, 1fr);
     padding-top: 160px;
     text-align: center;
+    padding-bottom: 120px;
 
 }
 
@@ -204,4 +206,71 @@ li>a {
     font-weight: 200;
     color: #FFFFFF;
     line-height: 20px;
+}
+
+
+/* why-tech section */
+
+.why-tech {
+    background-color: #230E3D;
+}
+
+.why-tech h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.why-content {
+    padding: 107px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+}
+
+.why-content h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.why-content p {
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.why-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 320px;
+    gap: 30px;
+    padding-bottom: 120px;
+
+}
+
+.why-box-1 {
+    grid-row: span 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-box-2 {
+    grid-column: span 2;
+    align-items: center;
+}
+
+.why-box-3 {
+    grid-column: span 2;
+    align-items: center;
+}
+
+.why-box-4 {
+    grid-column: span 2;
+    align-items: center;
 }
